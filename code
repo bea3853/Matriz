@@ -1,0 +1,24 @@
+Algoritmo "Matriz"
+
+Var
+m:vetor[1..5,1..5] de caracter
+l,c:inteiro
+
+// criamos a matriz e inserimos os dados//
+Inicio
+escreval("Digite: nome, sexo, idade, profissão e salario")
+para l de 1 ate 5 faca
+para c de 1 ate 5 faca
+leia (m[l,c])
+fimpara
+ escreval("-------------")
+fimpara
+
+//criamos outra matriz para imprimir os dados//
+para l de 1 ate 5 faca
+para c de 1 ate 5 faca
+escreva (m[l,c]:8)
+fimpara
+escreval ()
+fimpara
+Fimalgoritm
